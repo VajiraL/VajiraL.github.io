@@ -8,7 +8,9 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am a double master student at the University of Tokyo and the United Nations University. At the University of Tokyo I am studying Urban Environmental Engineering at the Department of Urban Engineering. I am researching sustainable sanitation planning systems using spatial data analysis. At the United Nations University, I study in the Sustainability MSc programme.
+
+Before moving to Japan in 2020 for higher studies, I worked in the water and sanitation sector in Sri Lanka for three years after graduating from the Civil Engineering programme at the University of Moratuwa. I worked in both private and public sector and had the opportunity to be part of some exciting engineering projects. Modelling and design of water and sewerage systems were my main responsibilities.
 
 ### Contact me
 
