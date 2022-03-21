@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The last cruise of the SMS Emden
+title: Climate Spiral for Colombo
 author: VajiraLasantha
-date: 10/02/2022
+date: 21/03/2022
 output: html_document
 published: true
 driveId: 1W-DUN_jjZ26i0bRunNXdj-LB7fleya_6/preview
