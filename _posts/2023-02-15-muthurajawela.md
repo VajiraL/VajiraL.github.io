@@ -15,7 +15,7 @@ As an avid supporter of environmental conservation, I was interested in studying
 
 Through my analysis, I found that there has been a significant change in vegetation cover in the area due to urban sprawl and commercial developments. These changes have led to the loss of critical habitats for several species of animals and plants, resulting in a negative impact on the overall biodiversity of the wetland.
 
-Access the [Google Earth Engine App here](https://ut-rs2020a.users.earthengine.app/view/muthurajawelavegetation)] 
+Access the [Google Earth Engine App here](https://ut-rs2020a.users.earthengine.app/view/muthurajawelavegetation)
 
 Here is a timelapse showing the landcover change in the area. Generated with annual composite Landsat images, visualised using SWIR1, NIR, and Red bands. 
 
