@@ -17,5 +17,6 @@ Through my analysis, I found that there has been a significant change in vegetat
 
 Access the [Google Earth Engine App here](https://ut-rs2020a.users.earthengine.app/view/muthurajawelavegetation)] 
 
-Here is a timelapse of showing landcover change in the area. Generated with annual composite Landsat images, visualised using SWIR1, NIR, and Red bands. 
-![](/images/muthurajawela_change_anim.gif "timelase of landcover change")
+Here is a timelapse showing the landcover change in the area. Generated with annual composite Landsat images, visualised using SWIR1, NIR, and Red bands. 
+
+![](/images/muthuraja_anim.gif "timelapse of landcover change")
