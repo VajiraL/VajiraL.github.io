@@ -17,5 +17,3 @@ Before moving to Japan in 2020, I worked in the water and sanitation sector in S
 
 ### Contact me
 [vajira.lasantha@outlook.com](mailto:Vajira.lasantha@outlook.com)
-[Twitter](https://twitter.com/VajiraL)
-[LinkdIn](https://www.linkedin.com/in/vajiral/)
