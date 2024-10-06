@@ -1,10 +1,10 @@
 ---
-title: 'blog post 2'
-subtitle: 'subtitle 2'
+title: 'blog post 1'
+subtitle: 'subtitle 1'
 author: 'vajira'
 description: ''
-date: 2024-08-15
-image: feature.jpg
+date: 2024-07-31
+image: ''
 categories: ['cat1','cat2']
 lightbox: true
 ---
