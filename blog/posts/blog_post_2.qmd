@@ -1,0 +1,10 @@
+---
+title: 'blog post 2'
+subtitle: 'subtitle 2'
+author: 'vajira'
+description: ''
+date: 2024-08-15
+image: feature.jpg
+categories: ['cat1','cat2']
+lightbox: true
+---

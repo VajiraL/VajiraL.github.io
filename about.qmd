@@ -1,5 +1,53 @@
 ---
-title: "About"
+title: "Vajira Lasantha"
+about:
+  template: trestles
+  image: profile.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/VajiraL
+    - icon: github
+      text: Github
+      href: https://github.com/VajiraL
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vajiral/
 ---
 
-About this site
+I am a PhD candidate at [Stockholm Resilience Centre](http://www.stockholmresilience.org). My current research focuses on [global green water resilience.](https://www.waterresilience.earth)
+
+## Education
+
+United Nations University Institute for Advanced Study of Sustainability (UNU-IAS)<br>
+Tokyo, Japan<br>
+MSc Sustainability<br>
+Sep 2021 - Aug 2023
+
+The University of Tokyo<br>
+Tokyo, Japan<br>
+MEng Urban Environmental Engineering<br>
+Sep 2020 - Aug 2022
+
+University of Moratuwa<br>
+Katubedda, Sri Lanka<br>
+BSc Civil Engineering<br>
+May 2013 - Apr 2017
+
+## Experience
+
+Swenco Solutions (pvt) Ltd, Sri Lanka<br>
+Director<br>
+May 2023 - present
+
+WOTA Inc, Japan<br>
+Geospatial Intern<br>
+Apr 2023 - Jul 2023
+
+National Water Supply & Drainage Board, Sri Lanka<br>
+Engineer<br>
+Jan 2019 - Sep 2020
+
+Ceywater Consultants (pvt) Ltd, Sri Lanka<br>
+Engineer<br>
+Sep 2017 - Jan 2019
