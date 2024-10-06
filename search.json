@@ -2,15 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "VajiraL.github.io",
+    "title": "Vajira Lasantha",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Sharing my interests, work and thoughts."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Vajira Lasantha",
     "section": "",
-    "text": "About this site"
+    "text": "I am a PhD candidate at Stockholm Resilience Centre. My current research focuses on global green water resilience."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Vajira Lasantha",
+    "section": "Education",
+    "text": "Education\nUnited Nations University Institute for Advanced Study of Sustainability (UNU-IAS) Tokyo, Japan MSc Sustainability Sep 2021 - Aug 2023\nThe University of Tokyo Tokyo, Japan MEng Urban Environmental Engineering Sep 2020 - Aug 2022\nUniversity of Moratuwa Katubedda, Sri Lanka BSc Civil Engineering May 2013 - Apr 2017"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Vajira Lasantha",
+    "section": "Experience",
+    "text": "Experience\nSwenco Solutions (pvt) Ltd, Sri Lanka Director May 2023 - present\nWOTA Inc, Japan Geospatial Intern Apr 2023 - Jul 2023\nNational Water Supply & Drainage Board, Sri Lanka Engineer Jan 2019 - Sep 2020\nCeywater Consultants (pvt) Ltd, Sri Lanka Engineer Sep 2017 - Jan 2019"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog Home\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog post 2\n\n\nsubtitle 2\n\n\n\ncat1\n\n\ncat2\n\n\n\n\n\n\n\n\n\nAug 15, 2024\n\n\nvajira\n\n\n\n\n\n\n\n\n\n\n\n\nblog post 1\n\n\nsubtitle 1\n\n\n\ncat1\n\n\ncat2\n\n\n\n\n\n\n\n\n\nJul 31, 2024\n\n\nvajira\n\n\n\n\n\n\nNo matching items"
   }
 ]
