@@ -13,5 +13,14 @@
   },
   "blog/posts/blog_post_2/index.qmd": {
     "index.html": "5e4fd153"
+  },
+  "blog/posts/220210_hms_emden/2022-02-10-emden.qmd": {
+    "2022-02-10-emden.html": "602d99fc"
+  },
+  "blog/posts/220215_muthurajawela/2023-02-15-muthurajawela.qmd": {
+    "2023-02-15-muthurajawela.html": "63096b34"
+  },
+  "blog/posts/220321_climspiral/2022-03-21-climspiral.qmd": {
+    "2022-03-21-climspiral.html": "abd2c5dc"
   }
 }
