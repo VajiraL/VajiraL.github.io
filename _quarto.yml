@@ -9,12 +9,16 @@ website:
         text: Home
       - href: blog/index.qmd
         text: Blog
+      - href: photos/index.qmd
+        text: Photos
       - href: about.qmd
         text: About Me
 
 format:
   html:
-    theme: morph
+    theme:
+      light: zephyr
+      dark: zephyr
     css: styles.css
     toc: true
 
