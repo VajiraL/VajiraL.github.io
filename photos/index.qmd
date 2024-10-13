@@ -1,0 +1,13 @@
+---
+title: "Photos"
+lightbox:
+    match: auto
+    effect: fade
+
+---
+
+Some of my favorite photos
+
+[! Hiroshima Peace Memorial](230706_hiroshima.jpg){group="gallery"}
+[! Paper cranes of Nagasaki](230711_nagasaki_cranes.jpg){group="gallery"}
+[! Nagasaki Peace Memorial](230711_nagasaki.jpg){group="gallery"}
