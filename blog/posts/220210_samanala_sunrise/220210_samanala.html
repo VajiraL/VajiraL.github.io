@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Vajira">
-<meta name="dcterms.date" content="2022-02-15">
+<meta name="dcterms.date" content="2022-02-10">
 
-<title>Vajira Lasantha – Vegetation change in Muthurajawela</title>
+<title>Vajira Lasantha – Samanala Sunrise</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -41,6 +75,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +105,26 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="../../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="../../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="../../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+
+<script src="../../../site_libs/leaflet-1.3.1/leaflet.js"></script>
+
+<link href="../../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+
+<script src="../../../site_libs/proj4-2.6.2/proj4.min.js"></script>
+
+<script src="../../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+
+<link href="../../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+
+<script src="../../../site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+
 
 
 <link rel="stylesheet" href="../../../styles.css">
@@ -113,19 +170,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#viewshed-analysis" id="toc-viewshed-analysis" class="nav-link active" data-scroll-target="#viewshed-analysis">Viewshed analysis</a>
+  <ul class="collapse">
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Vegetation change in Muthurajawela</h1>
+<h1 class="title">Samanala Sunrise</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Remote Sensing</div>
-    <div class="quarto-category">Vegetation</div>
-    <div class="quarto-category">Land</div>
+    <div class="quarto-category">Maps</div>
+    <div class="quarto-category">GIS</div>
   </div>
   </div>
 
@@ -143,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 15, 2022</p>
+      <p class="date">February 10, 2022</p>
     </div>
   </div>
   
@@ -155,15 +220,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The Muthurajawela Wetland in Sri Lanka is a vital ecological resource that provides many ecosystem services that are essenstial for the wellbeing of the people, the environment, and the Colombo city itself . However, this fragile ecosystem is under the threat of encroachment by human activities and commercial developments. Recently there were two petitions, filed by Cardinal Malcolm Ranjith and the Environmental Justice Center, requesting the court to order the demarcation of the wetland boundaries.</p>
-<p>On Jan 27, 2023, the Court of Appeal gave the government of Sri Lanka three months to complete the demarcation of the Muthurajawela Wetland. This decision is a significant step towards protecting the wetland and preventing further damage to its delicate ecosystem.</p>
-<p>As an avid supporter of environmental conservation, I was interested in studying the changes in vegetation cover in Muthurajawela over the years. I used satellite imagery to create a Google Earth Engine app that demonstrates the change in vegetation through the Normalized Difference Vegetation Index (NDVI), which is a commonly used parameter for identifying vegetation in multispectral images.</p>
-<p>Through my analysis, I found that there has been a significant change in vegetation cover in the area due to urban sprawl and commercial developments. These changes have led to the loss of critical habitats for several species of animals and plants, resulting in a negative impact on the overall biodiversity of the wetland.</p>
-<p>Access the <a href="https://ut-rs2020a.users.earthengine.app/view/muthurajawelavegetation">Google Earth Engine App here</a></p>
-<p>Here is a timelapse showing the landcover change in the area. Generated with annual composite Landsat images, visualised using SWIR1, NIR, and Red bands.</p>
-<p><img src="https://raw.githubusercontent.com/VajiraL/VajiraL.github.io/master/_posts/images/muthuraja_anim.gif" alt="timelapse"></p>
+<section id="viewshed-analysis" class="level1">
+<h1>Viewshed analysis</h1>
+<p>Sight of sunrise over Samanala Kanda makes for a glorious morning. On a good day there are many places in western region where you can see this. There was one place on my commute to school where, if my usual bus came on time, I could see the siluette of the Sri Pada before the rising sun. I always tried to catch a glimpse through the crowd.</p>
+<p>It was an interesting problem for the spatial analyst in me to map all the places that can see a Samanala Kanda sunrise. Here’s my attempt to do that using the viewshed analysis tools in QGIS.</p>
+<p>Both GRASS and GDAL packages in QGIS have viewshed analysis tools. There are also more feature-rich plugins like visibility analysis.</p>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>For visibility analysis, we need a digital elevation model. I used the JAXA ALOS 3D DEM which is a 30 m global DEM ## Approach</p>
+<p>Viewshed analysis finds the area visible from a certain location. How can we use that to solve the problem of finding the places that can see a Sri Pada sunrise ? I consider a Sri Pada sunrise is conditional up on the following two requirements. 1. There should be a direct line-of-sight between the observer and the mountain 2. Relative to the observer, the sun should rise behind the mountain</p>
+<p>Areas that satisfy the first requirement can be found using viewshed analysis. However, if we did the analysis for the topmost point, results will be exaggerated because it will include any point that can see even just a tip of the mountain. So it will include places from where Samanala Kanda is hidden behind other landmasses bar a tiny tip. So for good measure, I run the viewshed analysis from a point on the western face of the mountain, about 200 m below the top.</p>
+<p>Now for the second requirement, we need to consider the direction of sunrise. Direction of sunrise changes through out the year. While it is not very apparent when you live near the equator, the sun path moves north in the north hemispheric summer and south in the winter. Extreme of this movement happens on the solstice, usually June 21 and December 21. So what we simply need to do is find the directions of the sunrise seen from Sri Pada for those two days. Triangle formed between these two lines and to the west of the mountain is the areas where such a sunrise can be seen.</p>
+<p><a href="viewshed_dia.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="viewshed_dia.png" class="img-fluid"></a></p>
+<p>Finally the areas that satisfy both requirements can be found by intersecting the two results. Here is an embedded map of the results where you can zoom in and see where you can see a magnificent sunrise over Sri Pada. Looks like there are many good spots around Colombo to catch glorious view.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>() <span class="sc">%&gt;%</span>  <span class="co"># Add default OpenStreetMap map tiles</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addMarkers</span>(<span class="at">lng=</span><span class="fl">81.5</span>, <span class="at">lat=</span><span class="fl">6.8</span>, <span class="at">popup=</span><span class="st">"LK Random"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-42946f99fa81c446961a" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-42946f99fa81c446961a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.8,81.5,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"LK Random",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.8,6.8],"lng":[81.5,81.5]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -587,6 +670,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
