@@ -6,4 +6,4 @@ listing:
   type: default
   categories: true
 ---
-Blog Home
+Some opinions and thoughts.

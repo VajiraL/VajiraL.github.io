@@ -5,8 +5,8 @@ website:
   title: "Vajira Lasantha"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      #- href: index.qmd
+        #text: Home
       - href: blog/index.qmd
         text: Blog
       - href: photos/index.qmd
@@ -16,9 +16,9 @@ website:
 
 format:
   html:
-    theme:
-      light: zephyr
-      dark: zephyr
+    theme: slate
+      #light: slate
+      #dark: slate
     css: styles.css
     toc: true
 
