@@ -13,4 +13,4 @@ Climate spirals are an excellent way to visualise temperate change over time. Cl
 I have created a version of this visualisation showing temperature change in Colombo, Sri Lanka. Original code for this was from [here](https://github.com/luca-martial/MTL-temperature-spiral).
 
 
-<iframe src="https://drive.google.com/file/d/1W-DUN_jjZ26i0bRunNXdj-LB7fleya_6/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1W-DUN_jjZ26i0bRunNXdj-LB7fleya_6/preview" width="800" height="800" allow="autoplay"></iframe>
