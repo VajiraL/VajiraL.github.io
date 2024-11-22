@@ -4,7 +4,6 @@ subtitle: ''
 author: 'Vajira'
 description: ''
 date: 2022-03-21
-image: ''
 categories: ['Climate']
 lightbox: true
 ---
