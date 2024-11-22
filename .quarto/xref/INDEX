@@ -28,5 +28,11 @@
   },
   "photos/index.qmd": {
     "index.html": "3561a883"
+  },
+  "blog/drafts/blog_post_1/index.qmd": {
+    "index.html": "8609066e"
+  },
+  "blog/drafts/blog_post_2/index.qmd": {
+    "index.html": "71a4fdfc"
   }
 }
