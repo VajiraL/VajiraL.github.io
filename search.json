@@ -11,7 +11,7 @@
     "href": "blog/posts/220321_climspiral/2022-03-21-climspiral.html",
     "title": "Climate Spiral for Colombo",
     "section": "",
-    "text": "Climate spirals are an excellent way to visualise temperate change over time. Climate scientist Ed Hawkins unveiled the climate spiral in 2016 and it quickly went viral. It was also featured in the opening ceremony of the Rio de Janeiro Olympics. Climate spiral for global temperature can be found here. I have created a version of this visualisation showing temperature change in Colombo, Sri Lanka. Original code for this was from here.\n{% include googleDrivePlayer.html id=page.driveId %}"
+    "text": "Climate spirals are an excellent way to visualise temperate change over time. Climate scientist Ed Hawkins unveiled the climate spiral in 2016 and it quickly went viral. It was also featured in the opening ceremony of the Rio de Janeiro Olympics. Climate spiral for global temperature can be found here. I have created a version of this visualisation showing temperature change in Colombo, Sri Lanka. Original code for this was from here."
   },
   {
     "objectID": "blog/posts/220210_samanala_sunrise/220210_samanala.html",
