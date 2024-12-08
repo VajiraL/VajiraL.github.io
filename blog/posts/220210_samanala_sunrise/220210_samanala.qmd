@@ -23,6 +23,7 @@ Both GRASS and GDAL packages in QGIS have viewshed analysis tools. There are als
 ## Data
 
 For visibility analysis, we need a digital elevation model. I used the JAXA ALOS 3D DEM which is a 30 m global DEM
+
 ## Approach
 
 Viewshed analysis finds the area visible from a certain location. How can we use that to solve the problem of finding the places that can see a Sri Pada sunrise ?
