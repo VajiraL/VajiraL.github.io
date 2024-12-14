@@ -3,6 +3,7 @@ title: 'Climate Spiral for Colombo'
 subtitle: ''
 author: 'Vajira'
 description: ''
+image: 'climcol.jpg'
 date: 2022-03-21
 categories: ['Climate']
 lightbox: true
