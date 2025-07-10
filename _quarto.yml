@@ -16,7 +16,7 @@ website:
 
 format:
   html:
-    theme: slate
+    theme: cyborg
       #light: slate
       #dark: slate
     css: styles.css
