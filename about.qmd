@@ -13,6 +13,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/vajiral/
+format:
+  html:
+    toc: false
 ---
 
 I am a PhD candidate at [Stockholm Resilience Centre](http://www.stockholmresilience.org). My current research focuses on [global green water resilience.](https://www.waterresilience.earth)

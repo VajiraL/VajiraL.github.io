@@ -21,4 +21,4 @@ Access the [Google Earth Engine App here](https://ut-rs2020a.users.earthengine.a
 
 Here is a timelapse showing the landcover change in the area. Generated with annual composite Landsat images, visualised using SWIR1, NIR, and Red bands. 
 
-<img src="https://raw.githubusercontent.com/VajiraL/VajiraL.github.io/master/_posts/images/muthuraja_anim.gif" alt="timelapse" />
+![text](muthuraja_anim.gif)

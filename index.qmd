@@ -1,5 +1,12 @@
 ---
-title: ''
+title: 'Vajira Lasantha'
+# subtitle: 'doing things'
+
+format: 
+    html: 
+        toc: false
+        title-block-style: none
 ---
 
-Sharing my interests, work and thoughts.
+
+A collection of writings, photos, musings, things I wanted to share and things that didn't fit anywhere else. 

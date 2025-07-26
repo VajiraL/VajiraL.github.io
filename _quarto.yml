@@ -3,24 +3,29 @@ project:
 
 website:
   title: "Vajira Lasantha"
+  favicon: favicon-32x32.png
   navbar:
+    title: false
     left:
-      #- href: index.qmd
-        #text: Home
+      - href: index.qmd
+        text: Home
       - href: blog/index.qmd
         text: Blog
       - href: photos/index.qmd
         text: Photos
+      - href: links.qmd
+        text: Links
       - href: about.qmd
         text: About Me
 
 format:
   html:
-    theme: cyborg
+    tufte: true
+    #theme: null
       #light: slate
       #dark: slate
-    css: styles.css
+    css: styles.css #[tufte.css, styles.css]
     toc: true
 
 execute:
-  freeze: auto
+  freeze: false
