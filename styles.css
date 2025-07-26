@@ -1,1 +1,44 @@
 /* css styles */
+/* styles.css */
+@import url('https://fonts.bunny.net/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: "EB Garamond", serif;
+    font-size: 1.05em;
+    line-height: 1.6;
+    max-width: 75%;
+    margin: auto;
+    background: #fff;
+    color: #000;
+  }
+  
+div.margin {
+    font-size: 0.85em;
+    color: #555;
+  }
+
+h1, h2, h3, h4 {
+  font-family: 'EB Garamond', serif;
+  }  
+
+/* Change navbar background and text color */
+.navbar {
+    background-color: #dadada !important;  /* Dark background */
+    color: #fff !important;             /* Light text */
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 80%;         /* or 900px, depending on preference */
+    margin: 0 auto;           /* center it */
+  }
+  
+  /* Change link colors inside navbar */
+  .navbar a {
+    color: #282828 !important;
+  }
+  
+  .navbar a:hover { /* Highlight and underline on hover */
+    color: #8796ba !important;  
+    text-decoration: underline;
+  }
